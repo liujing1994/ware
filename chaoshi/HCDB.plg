@@ -1,0 +1,184 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HCDB - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/HCDB.res" /d "_DEBUG" /d "_AFXDLL" "E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\HCDB.rc"" 
+Creating temporary file "C:\DOCUME~1\new\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HCDB.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\AnotherView.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\BACKUPDLG.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\BMP.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\ForeMange.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHERIN.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHEROUT.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GfxGroupEdit.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GfxOutBarCtrl.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GfxPopupMenu.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\HCDB.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\HCDBDoc.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\HCDBView.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\Hutext.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INDETAIL.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKMANGE.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKQUERY.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MainFrm.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MQQAppearanceDlg.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyCanShowEdit.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyEdit.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyEditShowList.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyList.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyListCtrl.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTDETAIL.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKMANGE.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKQUERY.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\PASSDLG.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\PROVDLG.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\RESTOREDLG.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\SALESQUERY.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\SALESQUITDLG.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\STOCKMANAGE.cpp"
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\SYSDLG.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\new\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\new\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HCDB.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\new\LOCALS~1\Temp\RSPD.tmp" 
+Creating temporary file "C:\DOCUME~1\new\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HCDB.pdb" /debug /machine:I386 /out:"Debug/HCDB.exe" /pdbtype:sept 
+".\Debug\AnotherView.obj"
+".\Debug\BACKUPDLG.obj"
+".\Debug\BMP.obj"
+".\Debug\ForeMange.obj"
+".\Debug\GATHERIN.obj"
+".\Debug\GATHEROUT.obj"
+".\Debug\GfxGroupEdit.obj"
+".\Debug\GfxOutBarCtrl.obj"
+".\Debug\GfxPopupMenu.obj"
+".\Debug\HCDB.obj"
+".\Debug\HCDBDoc.obj"
+".\Debug\HCDBView.obj"
+".\Debug\Hutext.obj"
+".\Debug\INDETAIL.obj"
+".\Debug\INSTOCKMANGE.obj"
+".\Debug\INSTOCKQUERY.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MQQAppearanceDlg.obj"
+".\Debug\MyCanShowEdit.obj"
+".\Debug\MyEdit.obj"
+".\Debug\MyEditShowList.obj"
+".\Debug\MyList.obj"
+".\Debug\MyListCtrl.obj"
+".\Debug\MyNumEdit.obj"
+".\Debug\OUTDETAIL.obj"
+".\Debug\OUTSTOCKMANGE.obj"
+".\Debug\OUTSTOCKQUERY.obj"
+".\Debug\PASSDLG.obj"
+".\Debug\PROVDLG.obj"
+".\Debug\RESTOREDLG.obj"
+".\Debug\SALESQUERY.obj"
+".\Debug\SALESQUITDLG.obj"
+".\Debug\StdAfx.obj"
+".\Debug\STOCKMANAGE.obj"
+".\Debug\SYSDLG.obj"
+".\Debug\HCDB.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\new\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+e:\教学\08-09-2\vc++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\hcdb\debug\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+AnotherView.cpp
+BACKUPDLG.cpp
+BMP.cpp
+ForeMange.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\ForeMange.cpp(272) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\ForeMange.cpp(338) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+GATHERIN.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHERIN.cpp(246) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHERIN.cpp(556) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHERIN.cpp(625) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+GATHEROUT.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHEROUT.cpp(371) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHEROUT.cpp(414) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+GfxGroupEdit.cpp
+GfxOutBarCtrl.cpp
+GfxPopupMenu.cpp
+HCDB.cpp
+HCDBDoc.cpp
+HCDBView.cpp
+Hutext.cpp
+INDETAIL.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INDETAIL.cpp(123) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INDETAIL.cpp(145) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INDETAIL.cpp(145) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INDETAIL.cpp(166) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+INSTOCKMANGE.cpp
+INSTOCKQUERY.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKQUERY.cpp(63) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKQUERY.cpp(111) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKQUERY.cpp(111) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\INSTOCKQUERY.cpp(157) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+MainFrm.cpp
+MQQAppearanceDlg.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MQQAppearanceDlg.cpp(73) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+MyCanShowEdit.cpp
+MyEdit.cpp
+Generating Code...
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\GATHEROUT.cpp(137) : warning C4715: 'CGATHEROUT::PreTranslateMessage' : not all control paths return a value
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\ForeMange.cpp(385) : warning C4715: 'CForeMange::SetSalesNum' : not all control paths return a value
+Compiling...
+MyEditShowList.cpp
+MyList.cpp
+MyListCtrl.cpp
+MyNumEdit.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp(64) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp(77) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp(78) : warning C4244: 'argument' : conversion from 'double' to 'char', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp(98) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\MyNumEdit.cpp(105) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+OUTDETAIL.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTDETAIL.cpp(182) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTDETAIL.cpp(237) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTDETAIL.cpp(237) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTDETAIL.cpp(290) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+OUTSTOCKMANGE.cpp
+OUTSTOCKQUERY.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKQUERY.cpp(99) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKQUERY.cpp(147) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKQUERY.cpp(147) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\OUTSTOCKQUERY.cpp(193) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+PASSDLG.cpp
+PROVDLG.cpp
+RESTOREDLG.cpp
+SALESQUERY.cpp
+SALESQUITDLG.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\SALESQUITDLG.cpp(373) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\SALESQUITDLG.cpp(380) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+STOCKMANAGE.cpp
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\STOCKMANAGE.cpp(149) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\STOCKMANAGE.cpp(149) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\STOCKMANAGE.cpp(154) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\教学\08-09-2\VC++课件\第三讲\稿件程序源码\03\第三章 超市管理系统\HCDB\STOCKMANAGE.cpp(160) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+SYSDLG.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+HCDB.exe - 0 error(s), 38 warning(s)
+</pre>
+</body>
+</html>

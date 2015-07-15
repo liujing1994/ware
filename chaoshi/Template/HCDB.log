@@ -1,0 +1,84 @@
+﻿生成启动时间为 2015/7/15 星期三 20:37:25。
+     1>项目“C:\Users\Administrator\Desktop\51CTO下载-51CTO下载-超市管理系统全部源码VC++\03\HCDB.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Template\HCDB.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\vs2010\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Template\\" /Fd"Template\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnotherView.cpp BACKUPDLG.cpp BMP.cpp ForeMange.cpp GATHERIN.cpp GATHEROUT.cpp GfxGroupEdit.cpp GfxOutBarCtrl.cpp GfxPopupMenu.cpp HCDB.cpp HCDBDoc.cpp HCDBView.cpp Hutext.cpp INDETAIL.cpp INSTOCKMANGE.cpp INSTOCKQUERY.cpp MainFrm.cpp MQQAppearanceDlg.cpp MyCanShowEdit.cpp MyEdit.cpp MyEditShowList.cpp MyList.cpp MyListCtrl.cpp MyNumEdit.cpp OUTDETAIL.cpp OUTSTOCKMANGE.cpp OUTSTOCKQUERY.cpp PASSDLG.cpp PROVDLG.cpp RESTOREDLG.cpp SALESQUERY.cpp SALESQUITDLG.cpp StdAfx.cpp STOCKMANAGE.cpp SYSDLG.cpp
+         AnotherView.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         BACKUPDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         BMP.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         ForeMange.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         GATHERIN.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         GATHEROUT.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         GfxGroupEdit.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         GfxOutBarCtrl.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         GfxPopupMenu.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         HCDB.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         HCDBDoc.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         HCDBView.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Hutext.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         INDETAIL.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         INSTOCKMANGE.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         INSTOCKQUERY.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MainFrm.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MQQAppearanceDlg.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MyCanShowEdit.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MyEdit.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         正在生成代码...
+         正在编译...
+         MyEditShowList.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MyList.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MyListCtrl.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         MyNumEdit.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         OUTDETAIL.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         OUTSTOCKMANGE.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         OUTSTOCKQUERY.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         PASSDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         PROVDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         RESTOREDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         SALESQUERY.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         SALESQUITDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         StdAfx.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         STOCKMANAGE.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         SYSDLG.cpp
+     1>d:\Program Files (x86)\vs2010\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         正在生成代码...
+     1>已完成生成项目“C:\Users\Administrator\Desktop\51CTO下载-51CTO下载-超市管理系统全部源码VC++\03\HCDB.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:09.23

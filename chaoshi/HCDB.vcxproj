@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\HCDB.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\HCDB.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\HCDB.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\HCDB.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\HCDB.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\HCDB.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\HCDB.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\HCDB.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnotherView.cpp" />
+    <ClCompile Include="BACKUPDLG.cpp" />
+    <ClCompile Include="BMP.cpp" />
+    <ClCompile Include="ForeMange.cpp" />
+    <ClCompile Include="GATHERIN.cpp" />
+    <ClCompile Include="GATHEROUT.cpp" />
+    <ClCompile Include="GfxGroupEdit.cpp" />
+    <ClCompile Include="GfxOutBarCtrl.cpp" />
+    <ClCompile Include="GfxPopupMenu.cpp" />
+    <ClCompile Include="HCDB.cpp" />
+    <ClCompile Include="HCDBDoc.cpp" />
+    <ClCompile Include="HCDBView.cpp" />
+    <ClCompile Include="Hutext.cpp" />
+    <ClCompile Include="INDETAIL.cpp" />
+    <ClCompile Include="INSTOCKMANGE.cpp" />
+    <ClCompile Include="INSTOCKQUERY.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MQQAppearanceDlg.cpp" />
+    <ClCompile Include="MyCanShowEdit.cpp" />
+    <ClCompile Include="MyEdit.cpp" />
+    <ClCompile Include="MyEditShowList.cpp" />
+    <ClCompile Include="MyList.cpp" />
+    <ClCompile Include="MyListCtrl.cpp" />
+    <ClCompile Include="MyNumEdit.cpp" />
+    <ClCompile Include="OUTDETAIL.cpp" />
+    <ClCompile Include="OUTSTOCKMANGE.cpp" />
+    <ClCompile Include="OUTSTOCKQUERY.cpp" />
+    <ClCompile Include="PASSDLG.cpp" />
+    <ClCompile Include="PROVDLG.cpp" />
+    <ClCompile Include="RESTOREDLG.cpp" />
+    <ClCompile Include="SALESQUERY.cpp" />
+    <ClCompile Include="SALESQUITDLG.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="STOCKMANAGE.cpp" />
+    <ClCompile Include="SYSDLG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HCDB.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnotherView.h" />
+    <ClInclude Include="BACKUPDLG.h" />
+    <ClInclude Include="BMP.h" />
+    <ClInclude Include="ForeMange.h" />
+    <ClInclude Include="GATHERIN.h" />
+    <ClInclude Include="GATHEROUT.h" />
+    <ClInclude Include="GfxGroupEdit.h" />
+    <ClInclude Include="GfxOutBarCtrl.h" />
+    <ClInclude Include="GfxPopupMenu.h" />
+    <ClInclude Include="HCDB.h" />
+    <ClInclude Include="HCDBDoc.h" />
+    <ClInclude Include="HCDBView.h" />
+    <ClInclude Include="Hutext.h" />
+    <ClInclude Include="INDETAIL.h" />
+    <ClInclude Include="INSTOCKMANGE.h" />
+    <ClInclude Include="INSTOCKQUERY.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MQQAppearanceDlg.h" />
+    <ClInclude Include="MyCanShowEdit.h" />
+    <ClInclude Include="MyEdit.h" />
+    <ClInclude Include="MyEditShowList.h" />
+    <ClInclude Include="MyList.h" />
+    <ClInclude Include="MyListCtrl.h" />
+    <ClInclude Include="MyNumEdit.h" />
+    <ClInclude Include="OUTDETAIL.h" />
+    <ClInclude Include="OUTSTOCKMANGE.h" />
+    <ClInclude Include="OUTSTOCKQUERY.h" />
+    <ClInclude Include="PASSDLG.h" />
+    <ClInclude Include="PROVDLG.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RESTOREDLG.h" />
+    <ClInclude Include="SALESQUERY.h" />
+    <ClInclude Include="SALESQUITDLG.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="STOCKMANAGE.h" />
+    <ClInclude Include="SYSDLG.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Bliss.bmp" />
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\dragging.cur" />
+    <CustomBuild Include="res\handcur.cur" />
+    <CustomBuild Include="res\HCDB.ico" />
+    <CustomBuild Include="res\HCDB.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\HCDBDoc.ico" />
+    <CustomBuild Include="res\LargeIcon.bmp" />
+    <CustomBuild Include="res\nodraggi.cur" />
+    <CustomBuild Include="res\SmallIcon.bmp" />
+    <CustomBuild Include="res\Toolbar.bmp" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

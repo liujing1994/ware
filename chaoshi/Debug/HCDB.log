@@ -1,0 +1,31 @@
+﻿生成启动时间为 2015/7/15 星期三 20:38:32。
+     1>项目“C:\Users\Administrator\Desktop\51CTO下载-51CTO下载-超市管理系统全部源码VC++\03\HCDB.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\HCDB.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files (x86)\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\HCDB.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt MyNumEdit.cpp
+         MyNumEdit.cpp
+     1>c:\users\administrator\desktop\51cto下载-51cto下载-超市管理系统全部源码vc++\03\mynumedit.cpp(64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\51cto下载-51cto下载-超市管理系统全部源码vc++\03\mynumedit.cpp(77): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\51cto下载-51cto下载-超市管理系统全部源码vc++\03\mynumedit.cpp(78): error C2593: “operator =”不明确
+                 d:\program files (x86)\vs2010\vc\atlmfc\include\cstringt.h(1272): 可能是“ATL::CStringT<BaseType,StringTraits> &ATL::CStringT<BaseType,StringTraits>::operator =(wchar_t)”
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+                 d:\program files (x86)\vs2010\vc\atlmfc\include\cstringt.h(1263): 或       “ATL::CStringT<BaseType,StringTraits> &ATL::CStringT<BaseType,StringTraits>::operator =(char)”
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+                 尝试匹配参数列表“(CString, double)”时
+     1>c:\users\administrator\desktop\51cto下载-51cto下载-超市管理系统全部源码vc++\03\mynumedit.cpp(98): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\administrator\desktop\51cto下载-51cto下载-超市管理系统全部源码vc++\03\mynumedit.cpp(105): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>已完成生成项目“C:\Users\Administrator\Desktop\51CTO下载-51CTO下载-超市管理系统全部源码VC++\03\HCDB.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.02
